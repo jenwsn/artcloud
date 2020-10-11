@@ -1,0 +1,115 @@
+#heart_empty {
+    width: 20px;
+    height: 20px;
+}
+
+#recommendationCardDeck {
+    margin: 2%;
+}
+
+#cardLinks{
+    color: black;
+}
+
+#cardLinks:hover{
+    text-decoration: none;
+}
+
+footer {
+    padding-top: 5px;
+    background-color: gray;
+}
+
+.footerLink{
+    color:white;
+}
+
+.footerLink:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.signin_body{
+    background-image: url('../image/signin_bg.jpg');
+}
+
+.signin_form{
+    background-color: white;
+    display: inline-block;
+    position: absolute;
+    z-index: 15;
+    top: 35%;
+    left: 50%;
+    margin: -100px 0 0 -250px;
+    padding: 10px 15px 10px 15px;
+}
+
+.form_title{
+    color:black;
+}
+
+.form_title:hover{
+    text-decoration: none;
+    color: black;
+}
+
+.unlike{
+    display: none;
+}
+
+@media (min-width: 34em) {
+    .card-columns {
+        -webkit-column-count:3;
+        -moz-column-count:3;
+        column-count:3;
+    }
+}
+
+@media (min-width: 34em) {
+    .card-columns {
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        column-count: 2;
+    }
+}
+
+@media (min-width: 48em) {
+    .card-columns {
+        -webkit-column-count: 3;
+        -moz-column-count: 3;
+        column-count: 3;
+    }
+}
+
+@media (min-width: 62em) {
+    .card-columns {
+        -webkit-column-count: 4;
+        -moz-column-count: 4;
+        column-count: 4;
+    }
+}
+
+@media (min-width: 75em) {
+    .card-columns {
+        -webkit-column-count: 5;
+        -moz-column-count: 5;
+        column-count: 5;
+    }
+}
+
+/* .search_bar{
+    display: flex;
+    flex-direction: row;
+}
+
+#searchbar, #searchbutton {
+    margin:0;
+} */
+
+.search_bar{
+    display: table-row;
+}
+
+#searchbar, #searchbutton {
+    display: table-cell;
+}
